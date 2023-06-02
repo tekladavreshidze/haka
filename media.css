@@ -1,0 +1,183 @@
+@media screen and (max-width: 1086px) {
+  .grid {
+    margin: 0 !important;
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .header {
+    width: 100%;
+  }
+  .header nav .nav-bar {
+    width: 50% !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .header-absolute div {
+    width: 12rem !important;
+    height: 12rem !important;
+  }
+  .grid {
+    margin: 0  !important;
+  }
+  .main2 .city1 .p2 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header {
+    width: 100vw !important;
+  }
+  .search-options {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .grid {
+    width: 100vw !important;
+    margin: 0 !important;
+  }
+  .grid .grid-item {
+    width: 12rem !important;
+    height: 20rem !important;
+    font-size: 0.8rem;
+  }
+  .main2 {
+    height: 40rem !important;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .main2 .city2 {
+    width: 20rem !important;
+    height: 20rem !important;
+    -webkit-box-shadow: 1rem 1rem goldenrod !important;
+            box-shadow: 1rem 1rem goldenrod !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .header {
+    width: 100%;
+  }
+  .header nav .nav-bar {
+    width: 60% !important;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .main2 .city1 p {
+    font-size: 0.7rem;
+  }
+  .grid .grid-item {
+    width: 7rem !important;
+    height: 10rem !important;
+  }
+  .grid .grid-item .text {
+    display: none !important;
+  }
+  .header nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header nav .nav-bar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .search-bar {
+    width: 80vw !important;
+    margin: 0 !important;
+  }
+  .search-options {
+    width: 80vw !important;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .city2 {
+    margin-top: 8rem;
+    width: 8rem !important;
+    height: 8rem !important;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .search-options {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column wrap !important;
+            flex-flow: column wrap !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+  }
+  .search-bar {
+    margin: 0 auto;
+  }
+  .main2 {
+    width: 100vw !important;
+  }
+  .main2 .city1 p {
+    display: none !important;
+  }
+  .main2 .city {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-flow: column wrap !important;
+            flex-flow: column wrap !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .main2 .city .city2 {
+    margin-top: 0.5rem;
+  }
+  .headings {
+    text-align: center !important;
+  }
+  footer {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .grid .grid-item {
+    width: 5rem !important;
+    height: 8rem !important;
+  }
+  .grid .grid-item .image {
+    height: 10% !important;
+  }
+  .headings span {
+    display: none !important;
+  }
+  .headings button {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */
